@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+}
+
+.header {
+  height: 100px;
+  background-color: magenta;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.footer {
+  height: 100px;
+  background-color: magenta;
+}

@@ -1,0 +1,65 @@
+.container {
+  width: 100%;
+  height: inherit;
+  display: flex;
+}
+
+.formContainer {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 400px;
+  
+}
+
+.inputsGroup {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(225,225,225, .8);
+}
+
+.input {
+  margin-top: 20px;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.regLink {
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.submitButton {
+  max-width: 300px;
+}
+
+.imageBlock {
+  width: 50%;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,28 @@
+.base {
+  width: inherit;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.submit {
+  border: none;
+  border-radius: 4px;
+  background-color: var(--mint-color);
+  color: #fff;
+  transition: background-color 600ms ease-in-out;
+  &:hover {
+    opacity: .8;
+    cursor: pointer;
+    transition: opacity 500ms ease-in-out;
+  }
+}
+
+.cancel {
+  border: none;
+  border-radius: 4px;
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  transition: background-color 600ms ease-in-out;
+}
